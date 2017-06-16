@@ -13,6 +13,15 @@
 		2153900A1EF367B70023FE78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 215390081EF367B70023FE78 /* Main.storyboard */; };
 		2153900C1EF367BB0023FE78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2153900B1EF367BB0023FE78 /* Assets.xcassets */; };
 		2153900F1EF367BB0023FE78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2153900D1EF367BB0023FE78 /* LaunchScreen.storyboard */; };
+		2153902B1EF367EC0023FE78 /* BottomModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 215390191EF367EC0023FE78 /* BottomModel.m */; };
+		2153902C1EF367EC0023FE78 /* ShopCarModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2153901B1EF367EC0023FE78 /* ShopCarModel.m */; };
+		2153902D1EF367EC0023FE78 /* ShopModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2153901D1EF367EC0023FE78 /* ShopModel.m */; };
+		2153902E1EF367EC0023FE78 /* BottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 215390201EF367EC0023FE78 /* BottomView.m */; };
+		2153902F1EF367EC0023FE78 /* CountView.m in Sources */ = {isa = PBXBuildFile; fileRef = 215390221EF367EC0023FE78 /* CountView.m */; };
+		215390301EF367EC0023FE78 /* CustomHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 215390241EF367EC0023FE78 /* CustomHeaderView.m */; };
+		215390311EF367EC0023FE78 /* ShopCarTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 215390261EF367EC0023FE78 /* ShopCarTableViewCell.m */; };
+		215390321EF367EC0023FE78 /* ShopCarTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 215390271EF367EC0023FE78 /* ShopCarTableViewCell.xib */; };
+		215390331EF367EC0023FE78 /* ShoppingCarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2153902A1EF367EC0023FE78 /* ShoppingCarViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +35,23 @@
 		2153900B1EF367BB0023FE78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2153900E1EF367BB0023FE78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		215390101EF367BC0023FE78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		215390181EF367EC0023FE78 /* BottomModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BottomModel.h; sourceTree = "<group>"; };
+		215390191EF367EC0023FE78 /* BottomModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BottomModel.m; sourceTree = "<group>"; };
+		2153901A1EF367EC0023FE78 /* ShopCarModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopCarModel.h; sourceTree = "<group>"; };
+		2153901B1EF367EC0023FE78 /* ShopCarModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopCarModel.m; sourceTree = "<group>"; };
+		2153901C1EF367EC0023FE78 /* ShopModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopModel.h; sourceTree = "<group>"; };
+		2153901D1EF367EC0023FE78 /* ShopModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopModel.m; sourceTree = "<group>"; };
+		2153901F1EF367EC0023FE78 /* BottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BottomView.h; sourceTree = "<group>"; };
+		215390201EF367EC0023FE78 /* BottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BottomView.m; sourceTree = "<group>"; };
+		215390211EF367EC0023FE78 /* CountView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountView.h; sourceTree = "<group>"; };
+		215390221EF367EC0023FE78 /* CountView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountView.m; sourceTree = "<group>"; };
+		215390231EF367EC0023FE78 /* CustomHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomHeaderView.h; sourceTree = "<group>"; };
+		215390241EF367EC0023FE78 /* CustomHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomHeaderView.m; sourceTree = "<group>"; };
+		215390251EF367EC0023FE78 /* ShopCarTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopCarTableViewCell.h; sourceTree = "<group>"; };
+		215390261EF367EC0023FE78 /* ShopCarTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopCarTableViewCell.m; sourceTree = "<group>"; };
+		215390271EF367EC0023FE78 /* ShopCarTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShopCarTableViewCell.xib; sourceTree = "<group>"; };
+		215390291EF367EC0023FE78 /* ShoppingCarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingCarViewController.h; sourceTree = "<group>"; };
+		2153902A1EF367EC0023FE78 /* ShoppingCarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingCarViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +84,7 @@
 		21538FFE1EF367B70023FE78 /* ShopCarDemo */ = {
 			isa = PBXGroup;
 			children = (
+				215390161EF367EC0023FE78 /* 购物车 */,
 				215390021EF367B70023FE78 /* AppDelegate.h */,
 				215390031EF367B70023FE78 /* AppDelegate.m */,
 				215390051EF367B70023FE78 /* ViewController.h */,
@@ -77,6 +104,54 @@
 				215390001EF367B70023FE78 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		215390161EF367EC0023FE78 /* 购物车 */ = {
+			isa = PBXGroup;
+			children = (
+				215390171EF367EC0023FE78 /* Model */,
+				2153901E1EF367EC0023FE78 /* View */,
+				215390281EF367EC0023FE78 /* ViewCintroller */,
+			);
+			path = "购物车";
+			sourceTree = "<group>";
+		};
+		215390171EF367EC0023FE78 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				215390181EF367EC0023FE78 /* BottomModel.h */,
+				215390191EF367EC0023FE78 /* BottomModel.m */,
+				2153901A1EF367EC0023FE78 /* ShopCarModel.h */,
+				2153901B1EF367EC0023FE78 /* ShopCarModel.m */,
+				2153901C1EF367EC0023FE78 /* ShopModel.h */,
+				2153901D1EF367EC0023FE78 /* ShopModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2153901E1EF367EC0023FE78 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2153901F1EF367EC0023FE78 /* BottomView.h */,
+				215390201EF367EC0023FE78 /* BottomView.m */,
+				215390211EF367EC0023FE78 /* CountView.h */,
+				215390221EF367EC0023FE78 /* CountView.m */,
+				215390231EF367EC0023FE78 /* CustomHeaderView.h */,
+				215390241EF367EC0023FE78 /* CustomHeaderView.m */,
+				215390251EF367EC0023FE78 /* ShopCarTableViewCell.h */,
+				215390261EF367EC0023FE78 /* ShopCarTableViewCell.m */,
+				215390271EF367EC0023FE78 /* ShopCarTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		215390281EF367EC0023FE78 /* ViewCintroller */ = {
+			isa = PBXGroup;
+			children = (
+				215390291EF367EC0023FE78 /* ShoppingCarViewController.h */,
+				2153902A1EF367EC0023FE78 /* ShoppingCarViewController.m */,
+			);
+			path = ViewCintroller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +212,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				215390321EF367EC0023FE78 /* ShopCarTableViewCell.xib in Resources */,
 				2153900F1EF367BB0023FE78 /* LaunchScreen.storyboard in Resources */,
 				2153900C1EF367BB0023FE78 /* Assets.xcassets in Resources */,
 				2153900A1EF367B70023FE78 /* Main.storyboard in Resources */,
@@ -150,8 +226,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				215390301EF367EC0023FE78 /* CustomHeaderView.m in Sources */,
+				2153902C1EF367EC0023FE78 /* ShopCarModel.m in Sources */,
 				215390071EF367B70023FE78 /* ViewController.m in Sources */,
+				2153902F1EF367EC0023FE78 /* CountView.m in Sources */,
 				215390041EF367B70023FE78 /* AppDelegate.m in Sources */,
+				2153902D1EF367EC0023FE78 /* ShopModel.m in Sources */,
+				215390311EF367EC0023FE78 /* ShopCarTableViewCell.m in Sources */,
+				215390331EF367EC0023FE78 /* ShoppingCarViewController.m in Sources */,
+				2153902E1EF367EC0023FE78 /* BottomView.m in Sources */,
+				2153902B1EF367EC0023FE78 /* BottomModel.m in Sources */,
 				215390011EF367B70023FE78 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,6 +357,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ShopCarDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.bocweb.ShopCarDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -284,6 +369,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ShopCarDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.bocweb.ShopCarDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
